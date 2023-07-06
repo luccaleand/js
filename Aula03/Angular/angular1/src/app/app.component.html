@@ -1,0 +1,26 @@
+<h1>{{msg}}</h1>
+<p>{{descricao}}</p>
+
+<img [src]="img" alt="">
+<hr>
+<h1>{{msgDois}}</h1>
+<p>{{descricaoDois}}</p>
+<hr>
+<img src="{{img}}" alt="">
+<button type="button" (click)="clicou()">não clique</button>
+<hr>
+<h1>Exibindo objetos</h1>
+<p>{{pessoa.nome}}</p>
+<p><strong>Nome:</strong> {{pessoa.nome}}</p>
+<p><strong>Idade:</strong> {{pessoa.idade}}</p>
+<hr>
+<h1>Diretiva</h1>
+<p *ngIf="pessoa.idade>=18">{{pessoa.nome}}</p>
+<hr>
+<p *ngFor="let F of pessoaCaixa">{{F.nome}}</p>
+<hr>
+<div *ngFor="let daniel of pessoaCaixa">
+<p><strong>Nome:</strong>{{daniel.nome}}</p>
+<p><strong>Idade:</strong>{{daniel.idade}}</p>
+<p><strong>Altura:</strong>{{daniel.altura}}</p><br>
+</div>

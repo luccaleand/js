@@ -1,0 +1,3 @@
+O que é o Angular? - é um framework baseado em Typescript para o desenvolvimento web
+
+Oque é um Framework? - É uma caixa de ferramentas para desenvolvimento 

@@ -6,24 +6,24 @@
     <script>
         alert('hello world!');
         console.log('hello world!2');
-
-
-        var myname = prompt("say my name!")
-
-        if (myname == heisenberg) {
-            window.alert("you are Gdo damn right!! " + myname);
-        } else {window.alert("SAY MY NAME!!!!!!");}
-
-
-
-        pessoa = prompt("qual sua idade?") 
-
+    
+        var myname = prompt("Say my name!");
+    
+        if (myname == "heisenberg") {
+            window.alert("You are goddamn right!!");
+            // Delay de 2 segundos antes de abrir a imagem
+            setTimeout(function() {
+                window.open("https://media.tenor.com/RSl30rOF2zsAAAAC/breaking-bad-walter-white.gif");
+            }, 2000);
+        } else if (myname == "my name") {
+            alert("You said my name!!");
+        } else {
+            myname = prompt("Say my name!");
+        }
     </script>
+    
 
 </head>
-
-<body>
-
-</body>
-
+    <body>
+    </body>
 </html>
