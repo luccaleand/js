@@ -1,4 +1,119 @@
-<h1>{{msg}}</h1>
+<app-header></app-header>
+
+<app-foto></app-foto>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h1>{{msg}}</h1>
 <p>{{descricao}}</p>
 
 <img [src]="img" alt="">
@@ -19,8 +134,16 @@
 <hr>
 <p *ngFor="let F of pessoaCaixa">{{F.nome}}</p>
 <hr>
-<div *ngFor="let daniel of pessoaCaixa">
-<p><strong>Nome:</strong>{{daniel.nome}}</p>
-<p><strong>Idade:</strong>{{daniel.idade}}</p>
-<p><strong>Altura:</strong>{{daniel.altura}}</p><br>
+<div *ngFor="let TESTE of pessoaCaixa">
+    <p><strong>Nome:</strong>{{TESTE.nome}}</p>
+    <p><strong>Idade:</strong>{{TESTE.idade}}</p>
+    <p><strong>Altura:</strong>{{TESTE.altura}}</p>
 </div>
+<hr>
+<br>
+<div *ngFor="let F of pessoaCaixa">
+    <div *ngIf="F.idade > 18">
+        {{ F.nome }}, {{F.idade}} anos
+    </div>
+</div> -->
+

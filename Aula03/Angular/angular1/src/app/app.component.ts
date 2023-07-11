@@ -6,6 +6,139 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
   controle = true;
 
   msg: string = "ola mundo!";
@@ -31,14 +164,6 @@ export class AppComponent {
   ]
 
 
-
-
-
-
-
-
-
-
   //método do botão
   clicou() {
     this.controle ? this.msg = "agr sou ternario" : this.msg = "Data binding";
@@ -60,5 +185,6 @@ export class AppComponent {
       this.msgDois= "Event binding";
       this.descricaoDois= "O Event binging pega uma informação no arquivo .ts e leva para o arquivo .html";
     }
- */  }
+   }
 }
+ */

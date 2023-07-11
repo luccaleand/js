@@ -2,6 +2,9 @@ h1{
     color:red; 
     /* background-color: red;*/
 }
+body{
+    background-color: aqua;
+}
 p{
     /* color: white; 
     background-color: red;*/
