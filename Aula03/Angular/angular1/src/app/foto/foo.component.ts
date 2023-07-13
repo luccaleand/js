@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 //Decorator - Determina a função da classe
 @Component({
@@ -10,4 +10,6 @@ import { Component } from "@angular/core";
 
 export class FotoComponente{
 
+
+@Input() imagen = "";
 }

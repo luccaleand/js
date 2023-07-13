@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  minhaImagem = "https://cdn.pixabay.com/photo/2023/05/16/06/08/bees-7996596_640.jpg";
 }
 
 
